@@ -680,3 +680,7 @@ def main():
             message += '\t- And/Or creating an issue on the project webpage (https://github.com/jesparza/peepdf/issues)' + newLine
             message = errorColor + message + resetColor
             sys.exit(message)
+
+
+if __name__ == "__main__":
+    main()
